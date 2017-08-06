@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    upstream (1.0.0)
+      json (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,7 +13,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  json (~> 2.1)
+  upstream!
 
 BUNDLED WITH
    1.15.1

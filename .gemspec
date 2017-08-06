@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
     s.email         = 'karagenit@outlook.com'
     s.files         = ['lib/upstream.rb']
     s.platform      = Gem::Platform::RUBY
+
+    s.add_runtime_dependency 'json', '~> 2.1'
 end
