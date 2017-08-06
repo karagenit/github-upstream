@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name          = 'upstream'
-    s.version       = '0.0.0'
+    s.version       = '1.0.0'
     s.license       = 'MIT'
     s.summary       = 'Github Upstream'
     s.description   = 'Fetch a Github Fork\'s Parent Repo URL'
