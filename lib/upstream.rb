@@ -6,6 +6,8 @@ require "json"
 
 def get_upstream(repo)
 
+    repo = repo.sub('https://github.com/', '').chomp
+
     raise ArgumentError, "Invalid Repo", caller unless repo =~ /\A[A-Za-z0-9.-]+\/[A-Za-z0-9.-]+\z/
 
     uri = URI.parse("https://api.github.com/repos/#{repo}")
