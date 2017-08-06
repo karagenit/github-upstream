@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    upstream (1.1.1)
+    upstream (1.1.2)
       json (~> 2.1)
 
 GEM
