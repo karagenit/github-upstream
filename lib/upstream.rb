@@ -6,7 +6,9 @@ require "json"
 
 def get_upstream(repo)
 
-    repo = repo.sub('https://github.com/', '').chomp
+    unless repo == nil
+        repo = repo.sub('https://github.com/', '').chomp
+    end
 
     raise ArgumentError, "Invalid Repo", caller unless repo =~ /\A[A-Za-z0-9.-]+\/[A-Za-z0-9.-]+\z/
 
