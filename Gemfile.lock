@@ -8,11 +8,20 @@ GEM
   remote: https://rubygems.org/
   specs:
     json (2.1.0)
+    minitest (5.10.3)
+    power_assert (1.0.2)
+    rake (12.0.0)
+    test-unit (3.2.5)
+      power_assert
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.15)
+  minitest (~> 5.10)
+  rake (~> 12.0)
+  test-unit (~> 3.2)
   upstream!
 
 BUNDLED WITH
