@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
     s.homepage      = 'https://github.com/karagenit/github-upstream'
     s.author        = 'Caleb Smith'
     s.email         = 'karagenit@outlook.com'
-    s.files         = ['upstream.rb']
+    s.files         = ['lib/upstream.rb']
     s.platform      = Gem::Platform::RUBY
-    s.require_paths = ['.']
 end
